@@ -1,0 +1,11 @@
+#include <stdio.h>
+int Sum(int num)
+{
+	int i=0;
+	int sum=0;
+	for(i=0;i<num;i++)
+	{
+		sum=i+sum;
+	}
+	return sum;
+}
